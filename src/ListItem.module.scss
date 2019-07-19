@@ -1,0 +1,44 @@
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.icon {
+  margin-right: 20px;
+  transform: rotate(0deg);
+  transition-duration: 250ms;
+}
+
+.open {
+  transform: rotate(180deg);
+}
+
+.title,
+.text {
+  line-height: 1.44;
+  color: #484848;
+  max-width: 767px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.text {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 400;
+  word-wrap: break-word;
+  max-width: 736px;
+  padding-left: 42px;
+}
